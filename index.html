@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CareerPath — Temukan Potensi, Bangun Masa Depan</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<header class="topbar">
+  <a class="brand" href="#" data-page="landing"><span class="brand-mark">↗</span>CareerPath</a>
+  <nav class="topnav" aria-label="Navigasi utama">
+    <button data-page="landing" class="active">Beranda</button>
+    <button data-page="features">Fitur</button>
+    <button data-page="jobs">Eksplorasi Karier</button>
+    <button data-page="articles">Artikel</button>
+  </nav>
+  <div class="top-actions">
+    <button class="btn btn-secondary" data-page="dashboard">Masuk</button>
+    <button class="btn btn-primary" data-page="assessment">Daftar Gratis</button>
+  </div>
+</header>
+
+<section class="page active" id="page-landing">
+  <div style="margin:20px 24px 0">
+    <div class="hero">
+      <div class="hero-copy">
+        <span class="pill">✦ &nbsp; PLATFORM PENGEMBANGAN KARIER</span>
+        <h1>Satu Platform,<br>Banyak Peluang<br><span>untuk Masa Depanmu.</span></h1>
+        <p>Kenali kekuatanmu, temukan karier yang cocok, dan susun langkah nyata untuk meraih impianmu. Mulai perjalanan profesionalmu dari sini.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-page="assessment">Mulai Assessment <span>→</span></button>
+          <button class="btn btn-secondary" data-page="features">Jelajahi Fitur</button>
+        </div>
+        <div class="hero-proof"><span class="proof-mark">01—04</span><span>Kenali diri · pilih arah · bangun skill · cari peluang</span></div>
+      </div>
+      <div class="hero-art" aria-label="Rekan kerja berdiskusi di ruang kerja">
+        <img class="hero-illustration-img" src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Sekelompok rekan kerja berdiskusi di ruang kerja" fetchpriority="high">
+        <div class="photo-caption"><span class="caption-dot"></span>Karier dibangun lewat langkah nyata</div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-intro"><div class="eyebrow">LANGKAH PERTAMAMU</div><h2>Mulai dari mana pun kamu berada</h2><p class="sub">CareerPath membantumu bergerak dari mengenal diri sampai siap mengambil peluang.</p></div>
+      <div class="grid grid-4">
+        <div class="card feature-card"><div class="stat-icon tint-blue">◎</div><div><div class="feature-number">01</div><h3>Kenali Potensi</h3><p>Assessment minat, nilai, dan kekuatan diri.</p></div></div>
+        <div class="card feature-card"><div class="stat-icon tint-lav">✦</div><div><div class="feature-number">02</div><h3>Temukan Karier</h3><p>Rekomendasi karier yang sesuai profilmu.</p></div></div>
+        <div class="card feature-card"><div class="stat-icon tint-mint">↗</div><div><div class="feature-number">03</div><h3>Kembangkan Skill</h3><p>Roadmap keterampilan dan target belajar.</p></div></div>
+        <div class="card feature-card"><div class="stat-icon tint-yellow">⌕</div><div><div class="feature-number">04</div><h3>Raih Peluang</h3><p>Jelajahi lowongan dan persiapkan lamaran.</p></div></div>
+      </div>
+    </div>
+    <div class="section grid grid-2">
+      <div class="card" style="background:linear-gradient(120deg,#eaf0ff,#f7f4ff)">
+        <div class="eyebrow">BUKAN SEKADAR PILIH KERJA</div><h2>Bangun karier yang terasa milikmu.</h2><p class="sub" style="max-width:580px;margin-bottom:18px">Mulai dari rasa ingin tahu, ubah menjadi rencana, lalu kembangkan kemampuan satu langkah demi satu langkah.</p><button class="btn btn-primary" data-page="assessment">Temukan Arah Karier →</button>
+      </div>
+      <div class="card"><div class="card-top"><h2>Perjalanan yang terarah</h2><span class="tag mint">Fleksibel</span></div><div class="progress-row"><span>Kenali diri</span><span>01</span></div><div class="progress"><span style="width:25%"></span></div><div class="progress-row"><span>Eksplorasi karier</span><span>02</span></div><div class="progress"><span style="width:50%"></span></div><div class="progress-row"><span>Bangun keterampilan</span><span>03</span></div><div class="progress"><span style="width:75%"></span></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="shell" id="app-shell" style="display:none">
+  <aside class="sidebar">
+    <a class="brand" href="#" data-page="dashboard"><span class="brand-mark">↗</span>CareerPath</a>
+    <div class="side-label">MENU UTAMA</div>
+    <nav class="side-nav">
+      <button data-page="dashboard" class="active"><span class="nav-ico">⌂</span>Dashboard</button>
+      <button data-page="assessment"><span class="nav-ico">◎</span>Assessment</button>
+      <button data-page="recommendations"><span class="nav-ico">✦</span>Rekomendasi Karier</button>
+      <button data-page="roadmap"><span class="nav-ico">↗</span>Skill Roadmap</button>
+      <button data-page="jobs"><span class="nav-ico">▤</span>Lowongan Kerja</button>
+      <button data-page="articles"><span class="nav-ico">▧</span>Artikel & Panduan</button>
+      <button data-page="profile"><span class="nav-ico">◉</span>Profil Saya</button>
+    </nav>
+    <div class="side-bottom side-nav"><button data-page="profile"><span class="nav-ico">⚙</span>Pengaturan</button><button data-page="landing"><span class="nav-ico">↪</span>Kembali ke Beranda</button></div>
+  </aside>
+  <main class="main">
+    <div class="appbar"><label class="search"><span>⌕</span><input id="globalSearch" placeholder="Cari karier, skill, atau peluang..." aria-label="Cari karier, skill, atau peluang"></label><div class="appbar-right"><button class="icon-btn" id="notifyBtn" aria-label="Notifikasi">♧<span class="dot"></span></button><div class="avatar">A</div><div class="user-meta">Andi Pratama<small>Mahasiswa • Pengguna CareerPath</small></div></div></div>
+
+    <section class="page active" id="page-dashboard"></section>
+
+    <section class="page" id="page-features">
+      <div class="page-head"><div><div class="eyebrow">FITUR CAREERPATH</div><h1>Semua yang kamu butuhkan untuk berkembang</h1><p class="sub">Satu alur yang menghubungkan pemahaman diri, pilihan karier, dan aksi nyata.</p></div></div>
+      <div class="grid grid-3">
+        <div class="card"><div class="stat-icon tint-blue">◎</div><h2 style="margin-top:18px">Assessment</h2><p class="sub">Pahami minat, kekuatan, nilai, dan gaya kerja melalui pertanyaan reflektif.</p><button class="btn btn-primary" style="margin-top:18px" data-page="assessment">Mulai assessment →</button></div>
+        <div class="card"><div class="stat-icon tint-lav">✦</div><h2 style="margin-top:18px">Rekomendasi Karier</h2><p class="sub">Jelajahi pilihan karier beserta ringkasan pekerjaan dan keterampilan utama.</p><button class="btn btn-secondary" style="margin-top:18px" data-page="recommendations">Jelajahi karier →</button></div>
+        <div class="card"><div class="stat-icon tint-mint">↗</div><h2 style="margin-top:18px">Skill Roadmap</h2><p class="sub">Susun tahapan belajar yang terukur, mulai dari dasar sampai siap melamar.</p><button class="btn btn-secondary" style="margin-top:18px" data-page="roadmap">Lihat roadmap →</button></div>
+        <div class="card"><div class="stat-icon tint-yellow">▤</div><h2 style="margin-top:18px">Lowongan Kerja</h2><p class="sub">Cari peluang berdasarkan bidang, tipe kerja, dan lokasi yang kamu inginkan.</p><button class="btn btn-secondary" style="margin-top:18px" data-page="jobs">Cari lowongan →</button></div>
+        <div class="card"><div class="stat-icon tint-pink">▧</div><h2 style="margin-top:18px">Artikel & Panduan</h2><p class="sub">Dapatkan panduan praktis tentang CV, wawancara, dan skill masa depan.</p><button class="btn btn-secondary" style="margin-top:18px" data-page="articles">Baca artikel →</button></div>
+        <div class="card" style="background:linear-gradient(140deg,#e9edff,#f5f0ff)"><div class="stat-icon tint-blue">♡</div><h2 style="margin-top:18px">Perjalanan Personal</h2><p class="sub">Simpan tujuan dan pantau kemajuanmu sesuai ritme yang realistis.</p><button class="btn btn-primary" style="margin-top:18px" data-page="profile">Atur profil →</button></div>
+      </div>
+    </section>
+
+    <section class="page" id="page-assessment"></section>
+
+    <section class="page" id="page-recommendations"></section>
+
+    <section class="page" id="page-roadmap"></section>
+
+    <section class="page" id="page-jobs"></section>
+
+    <section class="page" id="page-articles"></section>
+
+    <section class="page" id="page-profile"></section>
+  </main>
+</div>
+<footer>CareerPath · Kenali potensi, susun langkah, temukan peluang · Data tersimpan di browser perangkatmu</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
